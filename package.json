@@ -1,0 +1,22 @@
+{
+  "name": "jiale-mr",
+  "version": "1.0.0",
+  "description": "Jia Le's Mascot Background Randomizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "keywords": ["jiale", "randomizer", "background", "mascot", "jiale0709"],
+  "author": "Jia Le",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@babel/preset-react": "^7.28.5",
+    "@emotion/babel-preset-css-prop": "^11.12.0",
+    "@rollup/plugin-babel": "^6.1.0",
+    "rollup": "^4.59.0"
+  }
+}
