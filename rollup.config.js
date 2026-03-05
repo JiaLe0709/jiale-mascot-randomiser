@@ -1,20 +1,14 @@
 import babel from "@rollup/plugin-babel";
 
 export default {
-  input: "./src/index.js",
+  input: './src/index.js',
   output: {
-    file: "./lib/bundle.cjs",
-    format: "cjs",   
-    sourcemap: true,
+    file: './lib/bundle.js',
+    format: 'esm',
+    sourcemap: true
   },
   plugins: [
-    babel({
-      babelHelpers: "bundled",
-      presets: [
-        ["@babel/preset-env", { modules: false }], 
-        "@babel/preset-react"
-      ]
-    })
+    babel({ babelHelpers: 'bundled', presets: ['@babel/preset-env', '@babel/preset-react'] })
   ],
-  external: ["react"],
+  external: ['react'],
 };
