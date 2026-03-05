@@ -12,7 +12,14 @@ const ImagesList = [
     "valentine",
     "valentine_present",
     "children_day",
-    "sunset"
+    "sunset",
+    "noodles",
+    "spring",
+    "zoo",
+    "theme_park_1",
+    "theme_park_2",
+    "bus_stop",
+    "garden"
 ]
 
 export default ImagesList;

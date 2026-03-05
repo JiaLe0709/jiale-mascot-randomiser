@@ -1,6 +1,6 @@
 {
   "name": "jiale-mr",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Jia Le's Mascot Background Randomizer x Custom Image Randomiser",
   "main": "./lib/bundle.cjs",
   "module": "./lib/bundle.js",
@@ -21,6 +21,7 @@
     "type": "git",
     "url": "https://github.com/JiaLe0709/jiale-mascot-randomiser"
   },
+  "homepage": "https://mascot.jiale.in",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.29.0",
