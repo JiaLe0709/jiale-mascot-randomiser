@@ -1,6 +1,6 @@
 {
   "name": "jiale-mr",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Jia Le's Mascot Background Randomizer x Custom Image Randomiser",
   "main": "./lib/bundle.cjs",
   "module": "./lib/bundle.js",
